@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:ital,wght@1,300&family=Pacifico&family=Readex+Pro:wght@600&family=Roboto+Condensed&family=Roboto:ital@1&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.all {
+	width: 100%;
+	height: 100vh;
+	background: #ff9966;
+    background-color: #ffA500;
+}
+.box , .logo {
+	line-height: 22px;
+    font-family: 'Pacifico', cursive;
+}
+.box nav ul li{
+	list-style: none;
+	float: left;
+	margin: 0PX 50px;
+	padding: 34px 16px;
+}
+.box nav ul li a {
+	text-decoration: none;
+	color: #fff;
+    font-size: 100%;
+    font-family: 'Pacifico', cursive;
+}
+.box nav ul #main-profile-spill {
+	float: right;
+    width: 49px;
+    color: #fff;
+    font-size: 29px;
+    margin: 30px 0px;
+    cursor: pointer;
+}
+.box nav ul #main-all-spill {
+	float: right;
+    width: 49px;
+    color: #fff;
+    font-size: 29px;
+    margin: 30px 0px;
+    cursor: pointer;
+}
+.box nav ul #main-bell-spill {
+	float: right;
+    width: 49px;
+    color: #fff;
+    font-size: 29px;
+    margin: 30px 0px;
+    cursor: pointer;
+}
+.main-pic img {
+    width: 47%;
+    height: 57vh;
+    border-radius: 5px;
+    float: right;
+    margin: 6% 4%;
+    border: 6px solid #fff;
+    box-shadow: 4px 4px gray;
+}
+.enter-logo h2{
+    float: left;
+    margin: 9% 16%;
+    font-size: 43px;
+    color: #fff;
+    font-family: 'Readex Pro', sans-serif;
+}
+.enter-logo h5{
+    float: left;
+    margin: -9% 16%;
+    font-size: 12px;
+    color: #fff;
+    font-family: 'Readex Pro', sans-serif;
+}
+.all-btn , .btn {
+    display: flex;
+    float: left;
+    font-size: 19px;
+    padding: 2px 78px;
+    height: 6vh;
+    margin: -141px 12px;
+    line-height: 39px;
+    color: white;
+    background-color: transparent;
+    
+}
+button {
+    border: 1px solid #fff;
+    border-radius: 22px;
+    transition: 0.3s;
+}
+button:hover {
+    font-size: 23px;
+    height: 7vh;
+    background-image: radial-gradient( circle 976px at 51.2% 51%,  rgba(11,27,103,1) 0%, rgba(16,66,157,1) 0%, rgba(11,27,103,1) 17.3%, rgba(11,27,103,1) 58.8%, rgba(11,27,103,1) 71.4%, rgba(16,66,157,1) 100.2%, rgba(187,187,187,1) 100.2% );
+    color: white;
+    line-height: 45px;
+}
+@media only screen and (max-width: 600px) {
+    .all {
+        width: 142%;
+        height: 151vh;
+    }
+    .box nav ul {
+        display: inline;
+    }
+    .main-pic img {
+    width: 97%;
+    margin: 8% 1%;
+    font-size: 43px;
+    color: #fff;
+    font-family: 'Readex Pro', sans-serif;
+    }
+    .all-btn , .btn {
+    display: flex;
+    float: left;
+    font-size: 19px;
+    padding: 2px 78px;
+    height: 6vh;
+    margin: -100px 10px;
+    line-height: 39px;
+    color: white;
+    }
+    .enter-logo h2{
+    float: left;
+    margin: 9% 34%;
+    font-size: 43px;
+    color: #fff;
+    font-family: 'Readex Pro', sans-serif;
+    }
+    .enter-logo h5 {
+    float: left;
+    margin: -6% 35%;
+    font-size: 12px;
+    color: #fff;
+    font-family: 'Readex Pro', sans-serif;
+}
